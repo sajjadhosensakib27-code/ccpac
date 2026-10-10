@@ -35,14 +35,12 @@ import { updatesData } from '../data/updates';
         </div>
         
         <div class="space-y-4 max-w-4xl mx-auto">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight font-poppins leading-tight">
-                Chittagong College <br class="hidden sm:inline" />
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-300 glow-text">
-                    PHYSICS & ASTRONOMY CLUB
-                </span>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight font-poppins leading-tight">
+                <span class="block text-white">Chittagong College</span>
+                <span class="block text-cyan-400">Physics &amp; Astronomy Club</span>
             </h1>
-            <p class="text-cyan-300 italic text-sm md:text-base font-medium tracking-wide font-poppins">
-                "Promoting scientific literacy from subatomic scales to galactic horizons"
+            <p class="text-slate-400 text-[11px] sm:text-xs md:text-sm font-semibold uppercase tracking-[0.25em] font-poppins">
+                Promoting scientific literacy from subatomic scales to galactic horizons
             </p>
 
             <!-- Fundamental Physics & Astronomy Constants Ticker
@@ -61,21 +59,6 @@ import { updatesData } from '../data/updates';
                 </span>
             </div> -->
         </div>
-
-       <div class="glass-card max-w-5xl mx-auto p-6 md:p-10 rounded-3xl border border-cyan-500/20 shadow-2xl relative overflow-hidden group hover:border-cyan-500/40 transition-all">
-    <div class="absolute -top-10 -right-10 w-40 h-40 bg-cyan-500/10 rounded-full blur-2xl pointer-events-none"></div>
-
-
-<p class="text-slate-200 text-sm md:text-base leading-relaxed font-sans relative z-10 text-center">
-    CCPAC is a student-driven community exploring the laws of nature, from the smallest particles to the largest galaxies. We turn curiosity into understanding through observation, questioning, and discovery.
-</p>
-
-<p class="text-cyan-300 font-bold text-xs md:text-sm mt-5 relative z-10 tracking-wide text-center leading-relaxed">
-    <i class="fa-solid fa-meteor text-cyan-400 mr-2 inline-block align-middle"></i><span class="align-middle">Don't just observe the universe. Explore it.</span>
-</p>
-
-
-</div>
 
     </section>
 
@@ -135,11 +118,8 @@ import { updatesData } from '../data/updates';
         <div class="flex flex-col md:flex-row justify-between items-center border-b border-slate-800 pb-4 gap-4">
             <div>
                 <span class="inline-flex items-center space-x-2 text-xs uppercase tracking-widest text-cyan-400 font-bold bg-cyan-500/10 px-3.5 py-1.5 rounded-full border border-cyan-500/25 shadow-sm">
-                    <span class="relative flex h-2 w-2">
-                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
-                      <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
-                    </span>
-                    <span>Live Feed</span>
+                    <i class="fa-solid fa-bullhorn text-[11px]"></i>
+                    <span>Latest News</span>
                 </span>
                 <h2 class="text-2xl md:text-3xl font-extrabold font-poppins text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400 mt-2">Updates</h2>
             </div>
@@ -166,7 +146,6 @@ import { updatesData } from '../data/updates';
                     </div>
                     <div class="px-6 pb-5 pt-3 border-t border-slate-800/80 flex justify-between items-center text-[11px] text-cyan-400 font-semibold">
                         <span>View Details & Gallery <i class="fa-solid fa-arrow-right ml-1"></i></span>
-                        <span class="bg-cyan-500/10 px-2 py-0.5 rounded">{item.images.length > 1 ? `${item.images.length} Photos` : 'Featured'}</span>
                     </div>
                 </div>
             ))}
